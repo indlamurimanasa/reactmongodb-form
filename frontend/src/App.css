@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2f0;
+  background-image: url("https://i0.wp.com/picjumbo.com/wp-content/uploads/beautiful-fall-nature-scenery-free-image.jpeg?w=600&quality=80");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container {
+  width: 400px;
+  margin: 50px auto;
+  padding: 25px;
+  color: #481fdf;
+  background: rgb(180, 229, 32);
+  border-radius: 10px;
+  box-shadow: 0 0 10px hwb(256 3% 21%);
+}
+
+h1 {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  background-color: #39d358;
+  border: none;
+  border-radius: 5px;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+}
+
+.message {
+  text-align: center;
+  color: hwb(253 8% 30%);
+}
